@@ -16,6 +16,8 @@ MTCNN from David Sandberg (`FaceNet's MTCNN <https://github.com/davidsandberg/fa
 INSTALLATION
 ############
 
+*If you don't want to install extra packages:*
+
 Currently it is only supported Python3.4 onwards. It can be installed through pip:
 
 .. code:: bash
@@ -36,6 +38,15 @@ or with `conda`
     $ conda install tensorflow
 
 Note that `tensorflow-gpu` version can be used instead if a GPU device is available on the system, which will speedup the results.
+
+
+*If you use Poetry (https://python-poetry.org/)*
+
+.. code:: bash
+    poetry install
+
+.. code:: bash
+    poetry run example.py
 
 USAGE
 #####
